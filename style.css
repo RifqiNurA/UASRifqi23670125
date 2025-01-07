@@ -54,7 +54,7 @@ body {
     margin-bottom: auto;
 }
 
-/* home */
+/* about */
 #profil {
     display: flex;
     justify-content: center;
@@ -69,7 +69,7 @@ body {
 
 
 #home-img {
-    width: 300px;  /*ukuran gambar */
+    width: 300px; 
     border-radius: 30px;
 }
 
@@ -83,7 +83,7 @@ body {
 #profil h5 {
     font-size: 40px;
     margin-bottom: 1 rem;
-    font-weight: 300; /* Ukuran font lebih besar untuk h2 */
+    font-weight: 300; 
 }
 
 .box h3{
@@ -114,22 +114,22 @@ body {
 }
 
 .box a {
-    text-decoration: none; /* Menghilangkan garis bawah */
+    text-decoration: none; 
     text-align: center;
     background-color: #00ffff;
-    display: block; /* Membuat link menjadi blok agar lebar penuh */
+    display: block; 
     padding: 10px;
-    margin: 10px 0; /* Menambahkan jarak antar link */
-    border: 1px solid #0097a7; /* Border transparan sebagai ruang */
+    margin: 10px 0; 
+    border: 1px solid #0097a7; 
     width: 180px;
     height: 50px;
-    border-radius: 10px; /* Sudut melengkung */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efek transisi saat hover */
+    border-radius: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
-/* Efek hover untuk link */
+
 .box a:hover{
-    transform: scale(1.1); /* Membesarkan ukuran kotak 10% saat hover */
+    transform: scale(1.1); 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -146,22 +146,22 @@ body {
     }
     
     .box a {
-        text-decoration: none; /* Menghilangkan garis bawah */
+        text-decoration: none; 
         text-align: center;
         background-color: #00ffff;
-        display: block; /* Membuat link menjadi blok agar lebar penuh */
+        display: block; 
         padding: 10px;
-        margin: 10px 0; /* Menambahkan jarak antar link */
-        border: 1px solid #0097a7; /* Border transparan sebagai ruang */
+        margin: 10px 0; 
+        border: 1px solid #0097a7; 
         width: 160px;
         height: 50px;
-        border-radius: 10px; /* Sudut melengkung */
-        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efek transisi saat hover */
+        border-radius: 10px; 
+        transition: transform 0.3s ease, box-shadow 0.3s ease; 
     }
     
-    /* Efek hover untuk link */
+   
     .box a:hover{
-        transform: scale(1.1); /* Membesarkan ukuran kotak 10% saat hover */
+        transform: scale(1.1);
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     }
     
@@ -171,21 +171,9 @@ body {
 }
 
 
-
-/* berisi tentang biodata saya */
-.tentang {
-    min-height: 100vh;
-}
-
-.about {
-    display: flex;
-    align-items: center;
-    padding: 0 10%;
-}
-
 #home-about {
     display: flex;
-    align-items: center; /* Menjaga gambar tetap di tengah vertikal */
+    align-items: center;
     width: 300px;
     border-radius: 20px;
 }
@@ -199,10 +187,10 @@ body {
 
 
 .portofolio-about {
-    display: flex;  /*note ini yang bikin item bisa jejer*/
+    display: flex;  
     justify-content: center;
-    flex-wrap: wrap; /* Membungkus item ke baris berikutnya jika tidak muat */
-    width: 80%; /* Sesuaikan lebar sesuai kebutuhan */
+    flex-wrap: wrap; 
+    width: 80%; 
     margin: 0 auto;
     gap: 30px;
 }
@@ -214,18 +202,18 @@ body {
 
 
 .project-box{  
-    display: flex; /* Mengaktifkan Flexbox */
-    flex-direction: column; /* Mengatur arah item menjadi kolom */
+    display: flex; 
+    flex-direction: column; 
     flex-wrap: wrap;
-    align-items: center; /* Memusatkan item di sepanjang sumbu silang (horizontal) */
+    align-items: center;
     justify-content: space-between;
-    background-color: #f8f9fa; /* Warna latar belakang terang */
-    border: 1px solid #ddd; /* Garis tepi ringan */
-    border-radius: 10px; /* Sudut melengkung */
+    background-color: #f8f9fa; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
     padding: 20px;
-    width: 300px; /* Ukuran kotak sepertiga lebar halaman */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efek hover */
+    width: 300px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .project-box h3 {
@@ -251,8 +239,8 @@ body {
 }
 
 .project-box:hover {
-    transform: scale(1.05); /* Membesarkan sedikit saat di-hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan saat hover */
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -269,7 +257,6 @@ body {
 .profil {
     display: flex;
     flex-direction: column;
-    padding: 0 10%;
 }
 
 
